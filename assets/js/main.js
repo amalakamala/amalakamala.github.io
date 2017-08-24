@@ -14,7 +14,7 @@ $(document).ready(function() {
     	draggable: true,
     }); 
     //smoove transition
-    $('.mov').smoove({opacity:'0', moveY: '50px',});
+    $('.mov').smoove({opacity:'0', moveY: '70px',});
 
     $(function(){
     	$('a[href*="#"]').click(function() {
