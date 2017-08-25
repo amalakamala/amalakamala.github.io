@@ -13,8 +13,10 @@ $(document).ready(function() {
     	closeOnClick: true,
     	draggable: true,
     }); 
+    //scroll spy
+    $('.scrollspy').scrollSpy();    
     //smoove transition
-    $('.mov').smoove({opacity:'0', moveY: '50px',});
+    $('.mov').smoove({opacity:'0', moveY: '30px',});
 
     $(function(){
     	$('a[href*="#"]').click(function() {
@@ -29,7 +31,4 @@ $(document).ready(function() {
        		}
    		});
 	});
-    //scroll spy
-    $('.scrollspy').scrollSpy();
-		
 });
